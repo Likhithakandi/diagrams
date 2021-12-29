@@ -1,0 +1,8 @@
+sudo yum search docker
+sudo yum info docker
+yum install docker
+systemctl enable docker.service
+systemctl start docker.service
+systemctl status docker.service
+docker version
+
